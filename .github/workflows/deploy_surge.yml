@@ -42,7 +42,7 @@ jobs:
         run: npm install --global surge
       
       - name: deploy in surge
-        run: surge ./build bootcampclass2.surge.sh ${{drcerets.SURGE_SECERET}} 
+        run: surge ./build bootcampclass2.surge.sh ${{secrets.SURGE_SECERET}} 
       
          
           
